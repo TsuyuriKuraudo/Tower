@@ -13,12 +13,14 @@ config_version=5
 config/name="Tower"
 run/main_scene="uid://bjsp1eywsjfap"
 config/features=PackedStringArray("4.5", "GL Compatibility")
+run/max_fps=60
 config/icon="res://icon.svg"
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
+window/ios/allow_high_refresh_rate=false
 
 [rendering]
 

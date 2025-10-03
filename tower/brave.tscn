@@ -81,8 +81,11 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_h6cl4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fyuar")
 }],
-"loop": true,
+"loop": false,
 "name": &"back",
 "speed": 5.0
 }, {
@@ -98,8 +101,11 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_bival")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xna0s")
 }],
-"loop": true,
+"loop": false,
 "name": &"front",
 "speed": 5.0
 }, {
@@ -115,8 +121,11 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_2wpfg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_d5jns")
 }],
-"loop": true,
+"loop": false,
 "name": &"left",
 "speed": 5.0
 }, {
@@ -132,8 +141,11 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_40svh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vo4vc")
 }],
-"loop": true,
+"loop": false,
 "name": &"right",
 "speed": 5.0
 }]
@@ -143,5 +155,4 @@ script = ExtResource("1_ynfoi")
 
 [node name="Animation" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_d5jns")
-animation = &"front"
-frame_progress = 0.2638877
+animation = &"back"
