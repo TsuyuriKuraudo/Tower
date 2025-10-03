@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://leojfp22rlsd"]
+
+[ext_resource type="Texture2D" uid="uid://b5afhlxiih623" path="res://images/default_door.png" id="1_7k104"]
+
+[node name="Enemy" type="Node2D"]
+
+[node name="DefaultDoor" type="Sprite2D" parent="."]
+texture = ExtResource("1_7k104")

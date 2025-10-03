@@ -1,8 +1,12 @@
-[gd_resource type="TileSet" load_steps=7 format=3 uid="uid://doi5dsth6o5ng"]
+[gd_resource type="TileSet" load_steps=9 format=3 uid="uid://doi5dsth6o5ng"]
 
 [ext_resource type="Texture2D" uid="uid://hcc00rdj24lb" path="res://images/enemys.png" id="1_6kkar"]
+[ext_resource type="PackedScene" uid="uid://leojfp22rlsd" path="res://enemy.tscn" id="1_xwklq"]
 [ext_resource type="Texture2D" uid="uid://bnisequ8wnopg" path="res://images/default_wall.png" id="2_a1ba5"]
 [ext_resource type="Texture2D" uid="uid://buumgmpee4l0v" path="res://images/default_ground.png" id="3_jxlj7"]
+
+[sub_resource type="TileSetScenesCollectionSource" id="TileSetScenesCollectionSource_8ww5j"]
+scenes/1/scene = ExtResource("1_xwklq")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6kkar"]
 resource_name = "enemy"
@@ -149,3 +153,4 @@ tile_size = Vector2i(32, 32)
 sources/2 = SubResource("TileSetAtlasSource_6kkar")
 sources/3 = SubResource("TileSetAtlasSource_jxlj7")
 sources/4 = SubResource("TileSetAtlasSource_xwklq")
+sources/0 = SubResource("TileSetScenesCollectionSource_8ww5j")
